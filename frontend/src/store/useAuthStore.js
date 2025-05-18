@@ -89,7 +89,7 @@ export const useAuthStore = create((set, get) => ({
     // Disconnect existing socket if any
     get().disconnectSocket();
 
-    const socket = io(BASE_URL , {  
+    const socket = io(BASE_URL, {  
       transports: ['websocket', 'polling'], // Try both WebSocket and polling
     reconnectionAttempts: 5,
     reconnectionDelay: 1000,

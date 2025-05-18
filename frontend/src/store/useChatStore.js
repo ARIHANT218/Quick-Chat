@@ -46,7 +46,7 @@ export const useChatStore = create((set,get)=>({
 
         try {
           const res = await api.post(
-            `/messages/send/${selectedUser._id}`,
+            `/messages/send/${selectedUser._id}`, 
             MessageData,
             { withCredentials: true }
           );

@@ -33,7 +33,7 @@ exports.getMessages = async (req, res) => {
 };
 
 exports.sendMessage = async (req, res) => {
-  const { id: receiverId } = req.params;
+  const { id : receiverId } = req.params;
   const { text, image } = req.body;
   const senderId = req.user._id; 
   let imageUrl = null; // Declare imageUrl outside the if block
