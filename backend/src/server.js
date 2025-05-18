@@ -5,8 +5,6 @@ const cors = require("cors");
 const path = require("path");
 dotenv.config();
 
-const __dirname = path.resolve();  // <-- define __dirname
-
 // Database
 const { connectDB } = require("./lib/db");
 
@@ -20,7 +18,7 @@ const { app, server } = require("./lib/socket");
 const PORT = process.env.PORT || 3000; // fallback port
 
 app.use(express.json({ limit: "5mb" }));  // For JSON, single call
-app.use(express.urlencoded({ limit: "5mb", extended: true })); 
+app.use(express.urlencoded({ limit: "5mb", extended: true }));
 
 app.use(cookieParser());
 
