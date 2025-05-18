@@ -18,7 +18,8 @@ const { app, server } = require("./lib/socket");
 
 
 const PORT = process.env.PORT;
-const __dirname = path.resolve();
+
+// const __dirname = path.resolve();
 app.use(express.json({ limit: "5mb" }));  // For JSON
 app.use(express.urlencoded({ limit: "5mb", extended: true })); 
 
