@@ -1,6 +1,6 @@
 # 💬 Quick Chat
 
-**Quick Chat** is a full-stack real-time chat application with secure **user authentication** and **MongoDB** integration. It allows multiple users to communicate instantly in a clean, responsive interface. Designed for teams, demo projects, or personal use, Quick Chat delivers performance, simplicity, and extensibility.
+**Quick Chat** is a full-stack real-time chat application with secure **user authentication** and **MongoDB** integration. It allows multiple users to communicate instantly in a clean, responsive interface. 
 
 ---
 
