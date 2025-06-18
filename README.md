@@ -21,15 +21,8 @@
 - **Backend:** Node.js, Express.js
 - **Auth:** JWT-based authentication
 - **Communication:** Socket.io or REST API (as implemented)
-- **Database (if any):** JSON/Local or MongoDB (optional)
+- **Database :**  MongoDB
 - **State Management:** useState / useEffect (or Redux if used)
 
 ---
 
-## 📦 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/ARIHANT218/Quick-Chat.git
-cd Quick-Chat
