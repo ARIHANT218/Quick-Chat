@@ -43,18 +43,8 @@
 
 ### 1. Clone the Repository
 git clone https://github.com/ARIHANT218/Quick-Chat.git
----
-
-📁 Project Structure
 
 
-Quick-Chat/
-├── client/           # React frontend
-│   └── ...
-├── server/           # Node/Express backend
-│   └── ...
-├── README.md
-└── .env.example
 ---
 
 
