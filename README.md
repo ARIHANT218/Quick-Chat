@@ -46,6 +46,8 @@ git clone https://github.com/ARIHANT218/Quick-Chat.git
 ---
 
 📁 Project Structure
+
+
 Quick-Chat/
 ├── client/           # React frontend
 │   └── ...
