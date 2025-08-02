@@ -2,6 +2,7 @@
 
 **Quick Chat** is a full-stack real-time chat application with secure authentication and MongoDB integration. It enables users to engage in live, instant messaging with a smooth and responsive interface — ideal for both desktop and mobile users.
 
+
 ---
 
 ## 🚀 Features
@@ -37,11 +38,13 @@
 | **Realtime** | Socket.io (or REST API fallback)            |
 | **Hosting**  | Suitable for Render, Vercel, or Railway     |
 
+
 ---
 
 ## 📦 Getting Started
 
 ### 1. Clone the Repository
+
 git clone https://github.com/ARIHANT218/Quick-Chat.git
 
 
@@ -70,7 +73,6 @@ Quick-Chat/
 
 │   └── package.json       # Frontend dependencies and scripts
 
-
 ├── server/                # Backend application using Node.js and Express.js
 
 │   ├── config/            # Configuration files (e.g., DB connection)
@@ -94,5 +96,9 @@ Quick-Chat/
 └── LICENSE                # Project license (e.g., MIT)
 
 
+
+
 🤝 Contributing
+
+
 Contributions are welcome! Please open issues or submit a pull request to suggest improvements or report bugs.
