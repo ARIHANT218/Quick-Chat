@@ -38,10 +38,16 @@ You can view the live version here:
 Here’s a suggested structure (your project may differ)
 #
 Quick-Chat/
-├── frontend/        # Client side code
-├── backend/         # Server side code / API & websocket logic
+├── frontend/        # Client side 
+code
+├── backend/         # Server side 
+code / API & websocket logic
+
 ├── public/          # Static files
-├── .env             # Environment variables
+
+├── .env             # Environment 
+variables
+
 └── README.md        # Project documentation
 
 ````
@@ -134,6 +140,3 @@ This project is licensed under the **MIT License**.
 ## 📞 Contact
 
 If you have feedback or need to reach me, feel free to connect via email / GitHub.
-
-```
-
