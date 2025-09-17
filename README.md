@@ -16,7 +16,8 @@ You can view the live version here:
 - User authentication (signup / login)  
 - Profile page  
 - Real-time chat messaging  
-- Responsive UI  
+- Responsive UI
+- Group Chat with Friends in real time.
 - Instant updates when new messages arrive  
 
 ---
@@ -83,6 +84,8 @@ To run the project locally:
    DB_URI=…
    JWT_SECRET=…
    ```
+
+   
 
 4. Start the development servers
 
